@@ -1,0 +1,296 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: linear-gradient(to right, red, orange, yellow, green);
+}
+
+.header{
+    display: flex;
+    background-color: black;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    color: white;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+img{
+    width: 120px;
+}
+input{
+    width:300px;
+    height: 30px;
+    border-radius: 5px;
+    border: 2px solid black;
+   
+}
+.search{
+   position: relative;
+}
+.search_1{
+   position: absolute;
+   margin-left: 280px;
+    margin-top: -25px;
+    color: black;
+}
+
+
+
+button{
+    height: 30px;border-radius: 5px;
+}
+.dropdown{
+    display: flex;
+    align-items: center;
+}
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+    flex-direction: column;
+    
+}
+span {
+ height: 2px;
+  width: 20px;
+  background-color: white;
+margin: 2px;
+margin-left: 210px;
+}
+
+
+
+.section_2{
+    display: flex;
+    background-color:darkslategray;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    height: 50px;
+    position: relative;
+    top: 60px;
+   
+}
+.flag{
+    display: flex;
+   border: 0px;
+}
+@media (min-width:425px) and (max-width:767px){
+    .section_2{
+        display: none;
+    }
+}
+
+
+
+
+.section_3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: linear-gradient(to right, red, orange, yellow, green);
+    margin-top: 60px;
+    
+}
+.power{
+    margin-top: 20px;
+}
+.prime{
+    border: 2px solid black;
+    background-color:blue;
+    border-radius: 10px;
+margin-top: 20px;
+color: white;
+}
+@media (min-width:425px) and (max-width:767px){
+    .section_3{
+      width: 1000px;
+    }
+}
+
+
+
+
+
+.section_4{
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+height: 50px;
+background-color: lightblue;
+}
+.sbi{
+    color: navy;
+}
+.discount{
+    display: flex;
+    margin-top: 10px;
+}
+
+
+
+.section_5{
+    display: flex;
+    margin-top: 5px;
+  
+}
+
+
+
+
+.box{
+    margin-left: 20px;
+    width: 400px;
+    height: 500px;
+    background-color: skyblue;
+    border-radius: 5px;
+}
+.box_1{
+    margin-left: 20px;
+    width: 400px;
+    height: 500px;
+    background-color:aqua;
+    border-radius: 5px;
+}
+.box_2{
+    margin-left: 20px;
+    width: 400px;
+    height: 400px;
+    background-color:burlywood;
+    border-radius: 5px;
+}
+
+.box_3{
+    margin-left: 20px;
+    width: 300px;
+    height: 400px;
+    background-color:darkcyan;
+    border-radius: 5px;
+}
+
+.box_4{
+    margin-left: 20px;
+    width: 300px;
+    height: 400px;
+    background-color: cadetblue;
+    border-radius: 5px;
+}
+.phone{
+    display: flex;
+}
+
+.phones_1{
+    margin: 40px;
+}
+.headphones{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+   margin: auto;
+}
+
+
+
+ /* @media(max-width:319px) {
+.header{
+    background-color:lightgreen;
+    width: 1000px;
+}
+input{
+    width: 100px;
+}
+.none{
+    display: none;
+}
+.menu:hover .none{
+    display: block;
+}
+}
+@media (min-width:320px) and (max-width:374px){
+    .header{
+        background-color: chocolate;
+        width: 1000px;
+    }
+    input{
+        width: 150px;
+    }
+    .none{
+        display: none;
+    }
+    .menu:hover .none{
+        display: block;
+    }
+}
+@media (min-width:375px) and (max-width:424px){
+    .header{
+        background-color: lightseagreen;
+        width: 1000px;
+    }
+    input{
+        width: 150px;
+    }
+    .none{
+        display: none;
+    }
+    .menu:hover .none{
+        display: block;
+    }
+} */
+@media (min-width:425px) and (max-width:767px){
+    .header{
+        background-color: lightpink;
+        width: 1000px;
+    }
+    input{
+        width: 150px;
+    }
+    .none{
+        display: none;
+    }
+    .menu:hover .none{
+        display: block;
+    }
+}
+
+@media (min-width:768px) and (max-width:1024px){
+    .header{
+        background-color: burlywood;
+        width: 1000px;
+    }
+    input{
+        width: 150px;
+    }
+    span{
+        display: none;
+    }
+}
+
+/* @media (min-width:1025px) and (max-width:1439px){
+    .header{
+        background-color: navy;
+        width: 1500px;
+    }
+    input{
+        width: 150px;
+    }
+    span{
+        display: none;
+    }
+} */
+/* @media (min-width:1040px) and (max-width:2560px){
+    .header{
+        background-color:skyblue;
+        width: 3000px;
+    }
+    input{
+        width: 150px;
+    }
+    span{
+        display: none;
+    }
+} */
+

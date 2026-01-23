@@ -1,0 +1,74 @@
+
+
+       .headers{
+        display: flex;
+        justify-content: space-evenly;
+        text-decoration: none;
+        background-color: blue;
+       } 
+
+       .banner{
+              display: flex;
+              justify-content: space-around;
+              background-image: url(./banner_img.jpeg);
+              background-size: cover;
+              background-position: center;
+              box-shadow: 10px 0 20px rgba(0, 79, 81, 0.489);
+       }
+       .text{
+              
+              color: white;
+              
+             
+       }
+       .logo{
+              display: flex;
+              align-items: center;
+              color: white;
+       
+       }
+        #trip{
+              border: 1px solid black;
+              width: 190px;
+              display: flex;
+              justify-content: center;
+              color: white;
+              border-radius: 5px;
+              padding: 5px;
+       
+       } 
+       #fare{
+              border: 1px solid black;
+               width: 85px;
+               margin-left: 5px;
+               border-radius: 5px;
+       }
+       .button{
+              position: relative;
+              left: 1460px;
+              bottom: 120px;
+       }
+
+      .box{
+       position: relative;
+      }
+      .back{
+       width: 500px;
+       width: 500px;
+       box-shadow: 10px 0 20px rgba(37, 11, 238, 0.3);
+      }
+     p {
+       position: absolute;
+       top: 200px;
+       left: 500px;
+       width: 200px;
+       color: blue;
+       display: none;
+      }
+      .box:hover p{
+       display: block;
+      }
+
+      
+
+      

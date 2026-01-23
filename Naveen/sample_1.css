@@ -1,0 +1,58 @@
+div{
+ border: 1px solid black;
+ border-radius: 5px;
+width: 100px; 
+height: 100px;
+background-repeat: no-repeat;   
+background-size: cover;         
+background-position: center;
+box-shadow: 10px 10px 5px 5px rgb(30, 0, 255);
+}
+
+#socks_1{
+    background-image: url('./socks_1.jpeg');
+    
+}
+#socks_2{
+    background-image: url('./socks_2.jpeg');
+}#socks_3{
+    background-image: url('./socks_3.jpeg');
+}#socks_4{
+    background-image: url('./socks_4.jpeg');
+}
+
+
+
+.big{
+    background-image: url('./socks_1.jpeg');
+    width: 400px;
+    height: 400px;
+    position: relative;
+    left: 200px;
+    bottom: 400px;
+    right: 300px;
+}
+
+#socks_2:hover~.big{
+    background-image: url('./socks_2.jpeg');
+}
+#socks_3:hover~.big{
+    background-image: url('./socks_3.jpeg');
+}#socks_4:hover~.big{
+    background-image: url('./socks_4.jpeg');
+}
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+

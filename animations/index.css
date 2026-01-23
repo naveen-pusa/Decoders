@@ -1,0 +1,71 @@
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.box{
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    /* background-color: red; */
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+    box-shadow: 2px 2px 2px 5px whitesmoke;
+    animation: cube 30s 1s infinite alternate;
+}
+@keyframes cube {
+  0% {
+    transform: translate(0px, 0px);
+    background-color: aqua;
+  }
+
+  5% {
+    transform: translate(0px, -300px); 
+  
+  }
+  10% {
+    transform: translate(0px, 0);
+    background-color: aquamarine;
+  }
+
+  15% {
+    transform: translate(0px, -300px); /* second bounce */
+  }
+  20% {
+    transform: translate(0px, 0);
+   background-color: blanchedalmond;
+  }
+
+  25% {
+    transform: translate(0px, -300px); /* third bounce */
+  }
+  30% {
+    transform: translate(0px, 0);
+    background-color: blue;
+  }
+
+  35% {
+    transform: translate(0px, -300px); /* fourth bounce */
+  }
+  40% {
+    transform: translate(0px, 0);
+    background-color: blueviolet;
+  }
+
+  45% {
+    transform: translate(0px, -300px); /* fifth bounce */
+  }
+  50% {
+    transform: translate(0px, 0);
+    background-color: brown;
+  }
+
+  
+}
+/* .box:hover {
+    animation-play-state: paused;
+} */

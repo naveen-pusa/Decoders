@@ -1,0 +1,73 @@
+*{
+    margin:0%;
+    padding: 0%;
+}
+ 
+ header{
+            background-color: black;
+            display: flex; 
+            justify-content: space-between;
+        }
+        
+        nav{
+            width: 60%;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+        a{
+            color: white;
+            width: 20%;
+            font-weight: bold;
+            text-decoration: none;
+        }
+       .banner_imag {
+        margin-top: 20px;
+       
+       }
+       #banner_img{
+        width: 1510px;
+        height:200px;
+       }
+       .photo{
+        width: 320px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: pink;
+       }
+       .logo{
+        width: 90px;
+        height: 90px;
+       }
+       .box{
+        display: flex;
+        justify-content: center;
+       flex-wrap: wrap;
+       width: 320px;
+
+       }
+       .Reviwes{
+       /* height: 30px; */
+       width: 320Px;
+       border-top: 3px solid black;
+      
+       }
+       .content{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center ;
+        gap:40px;
+        padding: 40px;
+
+       }
+       #color_1{
+        background-color: lightyellow;
+       }
+       #color_2{
+        background-color: blue;
+       }
+       #color_3{
+        background-color: brown;
+
+       }

@@ -1,0 +1,60 @@
+/* Body styling */
+body {
+  display: flex;
+  flex-direction: column; /* heading stays on top */
+  justify-content: flex-end; /* bars start from bottom */
+  align-items: center;
+   margin: 0;
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+}
+
+/* Graph container */
+.graph {
+  display: flex;
+  gap: 20px; /* space between boxes */
+  align-items: flex-end; /* bars grow from bottom */
+  margin-top: 50px;
+}
+
+/* Basic bar styling */
+.bar {
+  width: 50px; /* width of each box */
+  background-color: #4CAF50; /* color */
+  height: 0; /* start from 0 */
+  animation: grow 10s 2s backwards; /* animate height */
+}
+
+/* Individual boxes with different heights */
+.box1 {
+  /* height: 200px;  */
+  animation-delay: 5s;
+  background-color: #4CAF50;
+  
+}
+
+.box2 {
+  height: 180px;
+  /* animation-delay: 6s; */
+  background-color: #FF5722;
+}
+
+.box3 {
+  height: 150px;
+  /* animation-delay: 7s; */
+  animation-timing-function: 10s;
+  background-color: #2196F3;
+}
+
+.box4 {
+  height: 120px;
+  /* animation-delay: 8s; */
+  background-color: #FFC107;
+}
+
+/* Animation to grow from bottom to top */
+@keyframes grow {
+  from { transform: scaleY(0);}
+  to { transform: scaleY(1);}
+}
+

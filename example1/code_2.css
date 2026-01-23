@@ -1,0 +1,27 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh; */
+}
+
+/* Card box */
+.card {
+  width: 300px;
+  height: 200px;
+
+  /* FRONT IMAGE */
+  background-image: url('../Transforms/dhoni_1.webp');
+  background-size: cover;
+  background-position: center;
+
+  transition: 0.6s;
+  transform: rotateY(250deg);
+}
+
+/* When mouse comes */
+.card:hover {
+  /* BACK IMAGE */
+  background-image: url('../Transforms/dhoni_2.webp');
+  transform: rotateY(250deg);
+}

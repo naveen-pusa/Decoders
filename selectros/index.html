@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <style>
+   .selectros{
+    color: green;
+    background: red;
+    
+   }
+   
+   *{ 
+    margin: 60px;
+   
+   }
+   #attribute{
+color: red;
+
+height: 40px;
+   }
+   .naveen:hover{
+    color: red;
+    background-color: black;
+   }
+   #youtube:active{
+    color: green
+    
+   }
+   li:nth-child(2n){
+    color: blueviolet;
+   }
+.text::before {
+  content: "Naveen";
+  color: red;
+  font-weight: bold;
+ font-size: large; 
+
+
+}
+.text::after{
+    content: "end";
+    color: blue;
+    background-color: azure;
+    font-weight: 600;
+    font-size: x-large;
+
+}
+   .text::first-letter{
+    content: "Naveen";
+    color: blue;
+    background-color: azure;
+    font-weight: 600;
+    font-size: x-large;
+   }
+   .text::first-line{
+    color: blue;
+    background-color:gold;
+    font-weight: 600;
+    font-size: x-large;
+   }
+   div>.heading{
+    color: blue;
+   }
+
+
+   </style>
+    
+</head>
+<body>
+    <h1 class="selectros">The present class is about the selectros</h1>
+    <h2 id="attribute">gobal attribute</h2>
+    <h1 class="selectros">The html is completed</h1>
+    
+
+<p class="naveen">naveen pusa </p>
+<a id="youtube" href="https://www.youtube.com/"> youtube </a>
+
+<ol >
+    <li>naveen</li>
+    <li>raju</li>
+    <ol>
+        <li>rakesh </li>
+        <li>ramesh</li>
+    </ol>
+    <li>Ramesh</li>
+</ol>
+
+
+<p class="text">CSS pseudo-classes like :hover, :active, and :focus are used to style elements based on user interaction. The :visited pseudo-class styles links that have already been opened by the user. The :nth-child() pseudo-class selects elements according to their position among sibling elements.</p>
+
+<div>
+    <p id="heading">heading</p>
+    <div>
+        <p class="heading">side-heading</p>
+    </div>
+    
+</div>
+
+</body>
+</html>

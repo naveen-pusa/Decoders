@@ -1,0 +1,44 @@
+body{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+}
+.coin{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    /* box-shadow: 5px 5px 50px skyblue; */
+    /* background-color: white; */
+   animation: coin 2.5s infinite linear;
+   position: absolute;
+ 
+}
+@keyframes coin{
+    0%{
+        transform: translateY(0px) rotateX(0deg);
+        opacity: -1;
+    }
+    50%{
+        transform: translateY(-200px) rotateX(180deg);
+        /* background-color: blue; */
+        opacity: 1;
+    }
+    100%{
+        transform: translateY(-300px) rotateX(360deg);
+        background-color: fuchsia;
+     opacity: 0;
+    }
+}
+.coin:hover{
+    animation-play-state: paused;
+}
+img{
+    position: relative;
+}
+img
